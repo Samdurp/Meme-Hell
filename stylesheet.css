@@ -1,0 +1,102 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body
+{
+    background: #fff;
+    font: 14px/1.333 sans-serif;
+    color: #080000;
+    background-image: url("bgbgbg.gif");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+header#primary
+{
+    width: 100%;
+    height: 100px;
+    background: #313131;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d4d4d), to(#313131));
+    background-image: -moz-linear-gradient(#4d4d4d, #313131);
+    background-image: -o-linear-gradient(#4d4d4d, #313131);
+    background-image: linear-gradient(#4d4d4d, #313131);
+}
+header#primary h1
+{
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+#sidebarold
+{
+    width: 250px;
+    background: #ccc;
+    min-height: 100%;
+    filter: drop-shadow(8px 8px 10px);
+}
+#sidebar2old
+{
+    float: right;
+    width: 300px;
+    background: #ccc;
+    min-height: 100%;
+    filter: drop-shadow(8px 8px 10px);
+}
+
+old.img{ 
+    animation:.6s rotateRight infinite linear; 
+}
+
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
+}
+
+#dickle{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: inline-block;
+}
+#dickle:hover{
+    background-color:#dbdbdb;
+    color:black;
+}
+h3{
+    font-size: 20px;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+@keyframes breath {
+  0%   { background-size: 100% auto; }
+  50% { background-size: 140% auto; }
+  100% { background-size: 100% auto; }
+}
+
+#bkg{
+  width: 700px;
+  height: 700px;
+  animation: breath 20s linear infinite;
+  background: url("harambeslides.gif") center center no-repeat;
+  filter: drop-shadow(8px 8px 10px);
+}
+
+#halfbr {
+    line-height: 1px;
+ }
+
+#harambetitle {
+    font-size:100px;
+}
